@@ -1,3 +1,11 @@
 // BUILD YOUR SERVER HERE
+const express = require('express') // commonjs
 
-module.exports = {}; // EXPORT YOUR SERVER instead of {}
+// INSTANCE OF EXPRESS APP
+const server = express();
+
+
+
+
+
+module.exports = server; // EXPORT YOUR SERVER instead of {}
